@@ -1,24 +1,24 @@
 let handler = async (m, { conn }) => {
 	//-----PRICE
 //sewa
-let sh = '5'
-let sn = '15'
-let ss = '30'
-let sp = '35'
-let sv = '65'
+let sh = '0'
+let sn = '5'
+let ss = '10'
+let sp = '12'
+let sv = '15'
 //premium
 let ph = '5'
-let pn = '20'
-let pp = '40'
-let pv = '50'
-let ppm = '70'
+let pn = '10'
+let pp = '15'
+let pv = '20'
+let ppm = '25'
 let info = `
 ╭━━━━「 *SEWA* 」
 ┊⫹⫺ *Hemat:* _${sh}k/grup (1 minggu)_
 ┊⫹⫺ *Normal:* _${sn}k/grup (1 bulan)_
 ┊⫹⫺ *Standar:* _${ss}k/grup (2 bulan)_
 ┊⫹⫺ *Pro:* _${sp}k/grup (4 bulan)_                                                      
-┊⫹⫺ *Vip:* = _${sv}k/grup (12 bulan)_
+┊⫹⫺ *Vip:* = _${sv}k/grup (Unlimited)_
 ╰═┅═━––––––๑
 
 ╭━━━━「 *PREMIUM* 」
@@ -53,7 +53,7 @@ const sections = [
 	    {title: "🔖 NORMAL", rowId: '.order *Paket:* NORMAL • Sewa', description: 'PRICE: ' + sn + 'k (1 bulan)' },
 	{title: "🔖 STANDAR", rowId: '.order *Paket:* STANDAR • Sewa', description: 'PRICE: ' + ss + 'k (2 bulan)' },
 	{title: "🔖 PRO", rowId: '.order *Paket:* PRO • Sewa', description: 'PRICE: ' + sp + 'k (4 bulan)' },
-	{title: "🔖 VIP", rowId: '.order *Paket:* VIP • Sewa', description: 'PRICE: ' + sv + 'k (12 bulan)' },
+	{title: "🔖 VIP", rowId: '.order *Paket:* VIP • PERMANENT', description: 'PRICE: ' + sv + 'k (UNLIMITED)' },
 	]
     }, {
     title: `${htjava} PREMIUM ✦-------`,
